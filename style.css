@@ -1,0 +1,519 @@
+
+/* all common css start */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  overflow: auto;
+}
+.clr{
+    clear: both;
+}
+a{
+    text-decoration: none;
+    display: inline-block;
+}
+h1, h2, h3, h4, h5, h6, p{
+    margin: 0;
+    padding: 0;
+    line-height: 0.8;
+}
+ul, ol{
+    list-style-type: none;
+}
+
+/* all common css end */
+
+
+/* header part css start */
+.navbar{
+   position: fixed;
+   left: 0;
+   top: 0;
+   width: 100%;
+}
+.nav-link{
+    color: #fff;
+    font-size: 13px;
+    font-weight: 900;
+    font-family: 'Roboto', sans-serif;
+    transition: 0.4s;
+}
+.nav-link:hover{
+    color: #00e0d0;
+}
+/* header part css end */
+
+
+/* banner part css start */
+#banner{
+    
+    background: url(../images/banner.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+.overlay{
+    background:linear-gradient(to right, rgba(9, 5, 47, 0.85) , rgba(49, 29, 94, 0.85));
+    padding-top: 230px;
+    padding-bottom: 205px;
+}
+.banner_text h1{
+     font-size: 32px;
+    font-weight: 900;
+    font-family: 'Playfair Display', serif;
+    color:#fff;
+    position: relative;
+}
+.banner_text h1::after{
+    height: 1px;
+    width: 50px;
+    background: #00e0d0;
+    position: absolute;
+    content: "";
+    left: 50%;
+    bottom: -30px;
+    transform: translateX(-50%);
+}
+.banner_text p{
+        font-size: 14px;
+        font-weight: 300;
+        font-family: 'Roboto', sans-serif;
+        color:#fff;
+        line-height: 24px;
+        padding: 50px 129px;
+}
+.banner_text a{
+        font-size: 16px;
+        font-weight: 400;
+        font-family: 'Hammersmith One', sans-serif;
+        color:#00e0d0;
+        border: 1px solid #00e0d0;
+        padding: 15px 15px;
+}
+/* banner part css end */
+              
+
+/* service part css start */
+#service{
+    padding: 70px 0;
+}
+.diamond{
+    text-align: right;
+}
+.service_text{
+  
+}
+.service_text h3{
+    font-size: 22px;
+    font-weight: 700;
+    font-family: 'Playfair Display', serif;
+    color: #413d4b;
+    padding-bottom: 25px;
+}
+.service_text p{
+    font-size: 14px;
+        font-weight: 300;
+        font-family: 'Roboto', sans-serif;
+        color: #413d4b;
+        line-height: 22px;
+}
+.service_text a{
+    font-size: 16px;
+    font-weight: 400;
+    font-family: 'Hammersmith One', sans-serif;
+    color:#00e0d0;
+    border: 1px solid #00e0d0;
+    padding: 15px 15px;
+}
+.service_text .scnd_p{
+    margin-top: 30px;
+    padding-bottom: 30px;
+}
+/* service part css end */
+
+
+/* video part css start */
+#video{
+   
+    background: url(../images/video.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+#video .overlay{
+    padding: 200px 0;
+}
+.play{
+    text-align: center;
+}
+.video_text h4{
+    text-align: center;
+    color: #fff;
+    font-size: 13px;
+    font-weight: 900;
+    font-family: 'Roboto', sans-serif;
+}
+/* video part css end */
+
+
+/* story part css start */
+#story_part{
+    padding: 70px 0;
+}
+.common_heading h3{
+    font-size: 22px;
+    font-weight: 700;
+    font-family: 'Playfair Display', serif;
+    padding-bottom: 20px;
+    color: #413d4b;
+}
+.common_heading p{
+    font-size: 14px;
+    font-weight: 400;
+    font-family: 'Playfair Display', serif;
+    position: relative;
+   color: #2f2d35;
+}
+.common_heading p::after{
+    height: 1px;
+    width: 50px;
+    background: #c6c4c9;
+    position: absolute;
+    content: "";
+    left: 50%;
+    bottom: -20px;
+    transform: translateX(-50%);
+}
+.service_mt{
+    margin-top: 80px;
+}
+.card_txt h3{
+    font-size: 14px;
+    font-weight: 900;
+    font-family: 'Roboto', sans-serif;
+    color: #413d4b;
+    padding: 30px 0;
+}
+.card_txt p {
+	font-size: 14px;
+	font-weight: 400;
+	font-family: 'Roboto', sans-serif;
+	color: #333333;
+	padding: 0 83px;
+    line-height: 22px;
+}
+/* story part css end */
+
+
+/* meet part css start */
+#meet_part{
+    background: url(../images/meet_banner.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+.meet_overlay{
+    background:linear-gradient(to right, rgba(9, 5, 47, 0.85) , rgba(49, 29, 94, 0.85));
+    padding: 70px 0;
+}
+.meet_txt h3{
+    color: #fff;
+}
+.meet_txt p{
+    color: #fff;
+}
+.meet_img{
+  
+}
+.meet_img picture img{
+    height: 230px;
+    width: 220px;
+}
+.meet_text h5{
+    font-size: 14px;
+	font-weight: 700;
+	font-family: 'Roboto', sans-serif;
+	color: #fff;
+    padding-bottom: 10px;
+}
+.meet_text p{
+    font-size: 13px;
+	font-weight: 400;
+	font-family: 'Roboto', sans-serif;
+	color: #fff;
+}
+.meet_text{
+    border: 1px solid #7b7890;
+    padding: 20px ;
+}
+.meet_mt{
+    margin-top: 50px;
+}
+.meet_bottm_text p{
+    font-size: 13px;
+	font-weight: 400;
+	font-family: 'Roboto', sans-serif;
+	color: #fff;
+    padding-top: 70px;
+    padding-bottom: 30px;
+}
+.meet_bottm_text a{
+    font-size: 16px;
+        font-weight: 400;
+        font-family: 'Hammersmith One', sans-serif;
+        color:#00e0d0;
+        border: 1px solid #00e0d0;
+        padding: 15px 15px;
+}
+/* meet part css end */
+
+
+/* work part css start */
+#work_part{
+    padding: 70px 0;
+}
+.work_mt{
+    margin-top: 30px;
+}
+.work_btn a{
+    font-size: 16px;
+    font-weight: 400;
+    color: #413d4b;
+    border: 1px solid #ddd;
+    display: inline-block;
+    padding: 10px;
+    margin: 0 10px;
+}
+.work_gallery{
+  display: flex;
+}
+.work_img img{
+    width: 100%;
+}
+.work_img{
+    width: 100%;
+}
+.work_bottom_btn a{
+    font-size: 16px;
+    font-weight: 400;
+    font-family: 'Hammersmith One', sans-serif;
+    color:#00e0d0;
+    border: 1px solid #00e0d0;
+    padding: 15px 15px;
+    margin-top: 70px;
+}
+/* work part css end */
+
+
+/* jane part css start */
+#jane_part{
+   
+    background: url(../images/jane_banner.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+.jane_overlay{
+    background:linear-gradient(to right, rgba(9, 5, 47, 0.85) , rgba(49, 29, 94, 0.85));
+    padding-top: 120px;
+    padding-bottom: 75px;
+}
+.jane_txt p{
+    font-size: 16px;
+	font-weight: 400;
+	font-family: 'Playfair Display', serif;
+	color: #fff;
+    padding: 0 171px;
+    margin-top: 45px;
+    line-height: 22px;
+}
+.jane_txt h3{
+    font-size: 16px;
+	font-weight: 900;
+	font-family: 'Roboto', sans-serif;
+	color: #fff;
+     padding-top: 44px;
+    padding-bottom: 10px;
+}
+.jane_txt h6{
+    font-size: 13px;
+	font-weight: 300;
+	font-family: 'Roboto', sans-serif;
+	color: #fff;
+   
+}
+/* jane part css end */
+
+
+/* news part css start */
+#news_part{
+    padding: 70px 0;
+}
+.news_top_txt h2{
+    font-size: 22px;
+	font-weight: 700;
+	font-family: 'Playfair Display', serif;
+	color: #413d4b;
+    padding-bottom: 35px;
+}
+.f_input{
+    border: 1px solid #e5e5e5;
+    border-radius: 0px;
+    background: transparent;
+}
+.f_input::placeholder{
+    color: #413d4b;
+    font-size: 14px;
+	font-weight: 300;
+	font-family: 'Roboto', sans-serif;
+}
+.btn_padding{
+   margin-top: 20px;
+}
+.con_btn{
+    padding: 15px 29px;
+    border: 2px solid #00e0d0;
+    background: transparent;
+    color: #00e0d0;
+    font-size: 16px;
+    font-weight: 400;
+    font-family: 'Hammersmith One', sans-serif;
+    text-transform: uppercase;
+}
+
+
+/* news part css end */
+
+
+/* footer part css start */
+#footer_part{
+    background: url(../images/footer.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+.footer_overlay{
+    padding: 70px 0;
+    background:linear-gradient(to right, rgba(9, 5, 47, 0.85) , rgba(49, 29, 94, 0.85));
+}
+.logo_pb{
+    padding-bottom: 25px;
+}
+.footer_txt p{
+    font-size: 14px;
+        font-weight: 300;
+        font-family: 'Roboto', sans-serif;
+        color:#fff;
+        line-height: 24px;
+        padding-bottom: 25px;
+}
+.footer_head h3{
+    color: #fff;
+    font-size: 15px;
+    font-weight: 900;
+    font-family: 'Roboto', sans-serif;
+    padding-bottom: 40px;
+    padding-top: 20px;
+}
+.footer_icon i{
+    color: #fff;
+    width: 100%;
+}
+.foot_icon_{
+    
+}
+/* .foot_p{
+   padding-top: 15px;
+} */
+.footer_place::placeholder{
+    color: #9a92ab;
+}
+.footer_place{
+   border: 1px solid #9a92ab ;
+}
+.foot_icon_plan{
+    background: #9a92ab;
+    height: 37px;
+    width: 85px;
+    position: relative;
+}
+.ft_icon_plane{
+    position: absolute;
+}
+.ft_icon_plane i{
+    color: #000;
+    font-size: 25px;
+}
+/* .foot_menu{
+    height: 35px;
+    width: 35px;
+    background: transparent;
+    border-radius: 50%;
+    border: 1px solid #9a92ab;
+    position: relative;
+}
+.foot_menu ul li i{
+    color: #fff;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    position: absolute;
+    
+} */
+.foot_menu ul li{
+    display: inline-block;
+}
+.foot_menu ul li img{
+   width: 100%;
+   padding: 0 5px;
+}
+.bottom_menu ul li{
+    display: inline-block;
+}
+.bottom_menu ul li a{
+    color: #fff;
+    margin-left: 10px;
+    margin-top: 20px;
+}
+/* footer part css end */
+
+
+/* header part css start */
+/* header part css end */
+/* header part css start */
+/* header part css end */
+/* header part css start */
+/* header part css end */
+/* header part css start */
+/* header part css end */
+/* header part css start */
+/* header part css end */
+/* header part css start */
+/* header part css end */
+/* header part css start */
+/* header part css end */
+/* header part css start */
+/* header part css end */
+/* header part css start */
+/* header part css end */
+/* header part css start */
+/* header part css end */
+/* header part css start */
+/* header part css end */
+/* header part css start */
+/* header part css end */
+/* header part css start */
+/* header part css end */
+/* header part css start */
+/* header part css end */
+/* header part css start */
+/* header part css end */
+/* header part css start */
+/* header part css end */
+/* header part css start */
+/* header part css end */
+/* header part css start */
+/* header part css end */
+/* header part css start */
+/* header part css end */
